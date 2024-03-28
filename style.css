@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+img{
+    border-radius: 50%;
+    width: 120px;
+    margin: 15px 0px;
+    animation: image 3s linear infinite;
+}
+
+@keyframes image{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 12px;
+    margin: 6px 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+    animation: anees 2s linear;
+    cursor: all-scroll;
+
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.Mentor:hover{
+    background-color: purple;
+}
+
+.git:hover{
+    background-color: brown;
+}
+
+.link:hover{
+    background-color: green;
+}
+
+.Twitter:hover{
+    background-color: blue;
+}
+
+
+
+.ig:hover{
+    background-color: pink;
+    color: white;
+}
+
+
+
+h2{
+    font-size: 20px;
+}
+
+h5{
+    color: hsl(75, 94%, 57%);
+    margin: 8px 0px 15px 0px;
+
+}
+
+p{
+    margin: 15px 0px;
+    font-size: 18px;
+}
